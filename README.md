@@ -21,3 +21,23 @@ flexible Reinforcement Learning Framework, usable for RL from straightforward to
 <li>if -n is given than -nstart, -nstop, -nstep are ignored</li>
 <li>if -w is given than -wsstart, -wsstop, -wsstep are ignored</li>
 </ul>
+
+# Default parameter values
+<ul>
+<li> Default cache size is 3</li>
+<li> Default seed is 30</li>
+<li> Default no of queries is 100</li>
+<li> Default window size is 5</li>
+<li> Default range of window size is start = 5 stop = 10 step = 5</li>
+<li> Default range of alpha is start = 0.1 stop = 1.0 step = 0.1</li>
+<li> Default range of delta alpha is start = -0.5 stop = +0.5 step = 0.1</li>
+</ul>
+
+# EXAMPLE COMMANDS
+<ul>For synthetic data:
+<li>python3 main.py -csize=3 -fifo -lfu -sstart=10 -sstop=1000 -sstep=10 -ws=500 -n=25000 -astart=0.1 -astop=1.0 -astep=0.1 -cm -m -scss</li>
+</ul>
+
+<ul>For real data:
+<li>python3 main.py -csize=3 -fifo -lfu -wsstart=50 -wsstop=500 -wsstep=20 -cm -m -scss -rd</li>
+</ul>
