@@ -23,6 +23,7 @@ flexible Reinforcement Learning Framework, usable for RL from straightforward to
 </ul>
 
 # Default parameter values
+  Default vlaues can be modified in constants.py
 <ul>
 <li> Default cache size is 3</li>
 <li> Default seed is 30</li>
