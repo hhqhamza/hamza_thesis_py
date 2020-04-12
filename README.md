@@ -1,7 +1,7 @@
 # flexRL
 flexible Reinforcement Learning Framework, usable for RL from straightforward to state of the art
 
-Parameters
+# Parameters
  -s define the seed
  -sstart, -sstop, -sstep define the start, stop and step for the seed range function 
  -n deifnes the iterations
