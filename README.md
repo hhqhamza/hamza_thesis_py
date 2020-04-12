@@ -33,7 +33,7 @@ flexible Reinforcement Learning Framework, usable for RL from straightforward to
 <li> Default range of delta alpha is start = -0.5 stop = +0.5 step = 0.1</li>
 </ul>
 
-# EXAMPLE COMMANDS
+# Example commands
 <ul>For synthetic data:
 <li>python3 main.py -csize=3 -fifo -lfu -sstart=10 -sstop=1000 -sstep=10 -ws=500 -n=25000 -astart=0.1 -astop=1.0 -astep=0.1 -cm -m -scss</li>
 </ul>
